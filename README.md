@@ -27,8 +27,9 @@ npx skills add AshutoshDM1/skills
 
 | Skill | Description |
 | :--- | :--- |
-| **[`modular-nextjs-lean`](./skills/modular-nextjs-lean)** | Lean Modular Architecture for marketing sites, landing pages, and portfolios. |
-| **[`modular-nextjs-dynamic`](./skills/modular-nextjs-dynamic)** | Dynamic Domain Architecture for SaaS apps, dashboards, and complex portals. |
+| **[`modular-nextjs-website`](./skills/modular-nextjs-website)** | Website Modular Architecture for Next.js landing pages, marketing sites, and brand portfolios. |
+| **[`modular-nextjs-webapp`](./skills/modular-nextjs-webapp)** | Webapp Modular Architecture for Next.js SaaS products, dashboards, and complex portals. |
+| **[`modular-react-website`](./skills/modular-react-website)** | Website Modular Architecture for React & Vite landing pages, portfolios, and content sites. |
 | **[`rules`](./skills/rules)** | Strict fail-fast env policy, Tailwind v4 standards, and modular guidelines. |
 
 ---
@@ -37,8 +38,9 @@ npx skills add AshutoshDM1/skills
 
 ```text
 skills/
-├── modular-nextjs-lean/      # Lean Next.js architecture playbook
-├── modular-nextjs-dynamic/   # Dynamic Next.js domain architecture playbook
+├── modular-nextjs-website/   # Next.js website & marketing architecture playbook
+├── modular-nextjs-webapp/    # Next.js SaaS & web application architecture playbook
+├── modular-react-website/    # React/Vite website architecture playbook
 └── rules/                    # Project rules (strict-env, tailwind-v4)
 ```
 

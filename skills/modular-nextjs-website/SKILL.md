@@ -1,10 +1,10 @@
 ---
-name: modular-nextjs-lean
-description: Production-grade Lean Modular Architecture for Next.js applications (landing pages, marketing websites, portfolios, legal pages, and content sites). Enforces thin app routers, direct module imports, flat components vs. PascalCase Folds, centralized metadata/SEO, and centralized services without boilerplate.
+name: modular-nextjs-website
+description: Production-grade Website Modular Architecture for Next.js applications (landing pages, marketing websites, brand portfolios, legal pages, and content sites). Enforces thin app routers, direct module imports, flat components vs. PascalCase Folds, centralized metadata/SEO, and centralized services without boilerplate.
 license: MIT
 ---
 
-# Lean Modular Next.js Architecture
+# Modular Next.js Website Architecture
 
 This skill defines the architecture for building fast, maintainable, and pristine Next.js websites (landing pages, marketing, brand portfolios, and legal pages).
 
@@ -26,7 +26,7 @@ This skill defines the architecture for building fast, maintainable, and pristin
 
 ## Reference Guides
 
-- [Lean Modules & Folds](references/modules.md) — Flat components vs. Folds, direct imports, and thin router integration.
+- [Website Modules & Folds](references/modules.md) — Flat components vs. Folds, direct imports, and thin router integration.
 - [Metadata & SEO Architecture](references/metadata.md) — Decoupled metadata configuration (`site.config.ts`, `root.ts`, per-page metadata).
 - [Centralized Services](references/services.md) — API callers and network client abstraction.
 - [Shared UI & Component Hierarchy](references/shared-ui.md) — 3-tier component hierarchy and shared templates.
@@ -35,7 +35,7 @@ This skill defines the architecture for building fast, maintainable, and pristin
 
 ## Agent Execution Workflows
 
-### Workflow 1: Initializing a Lean Next.js Project Tree
+### Workflow 1: Initializing a Next.js Website Project Tree
 
 ```text
 src/

@@ -1,10 +1,10 @@
 ---
-name: modular-nextjs-dynamic
-description: Production-grade Dynamic Modular Architecture for Next.js applications (SaaS web apps, CRMs, interactive dashboards, customer portals, and data-heavy tools). Enforces thin app routers, vertical slice module encapsulation with colocated components, hooks, services, and types.
+name: modular-nextjs-webapp
+description: Production-grade Webapp Modular Architecture for Next.js applications (SaaS web apps, CRMs, interactive dashboards, customer portals, and data-heavy tools). Enforces thin app routers, vertical slice module encapsulation with colocated components, hooks, services, and types.
 license: MIT
 ---
 
-# Dynamic Modular Next.js Architecture
+# Modular Next.js Webapp Architecture
 
 This skill defines the architecture for building complex, interactive, and data-driven Next.js web applications (SaaS, CRMs, internal tools, and dashboards).
 
@@ -27,16 +27,16 @@ This skill defines the architecture for building complex, interactive, and data-
 
 ## Reference Guides
 
-- [Dynamic Modules Architecture](references/modules.md) — Vertical slice structure, local communication, and thin router integration.
+- [Webapp Modules Architecture](references/modules.md) — Vertical slice structure, local communication, and thin router integration.
 - [Services & API Layer](references/services.md) — API client abstraction, local vs. global endpoints.
 - [Hooks & State Management](references/hooks-and-state.md) — Colocated custom hooks, async data fetching, and state machines.
-- [Dynamic Metadata](references/metadata.md) — Metadata for authenticated views and dynamic route parameters.
+- [Webapp Metadata](references/metadata.md) — Metadata for authenticated views and dynamic route parameters.
 
 ---
 
 ## Agent Execution Workflows
 
-### Workflow 1: Initializing a Dynamic Next.js Project Tree
+### Workflow 1: Initializing a Next.js Webapp Project Tree
 
 ```text
 src/
@@ -77,7 +77,7 @@ src/
 
 ---
 
-### Workflow 2: Creating a New Dynamic Feature
+### Workflow 2: Creating a New Webapp Feature
 
 1. **Create Module Folder**: `src/modules/[FeatureName]/`
 2. **Define Local Types**: `src/modules/[FeatureName]/types/[featureName].types.ts`
